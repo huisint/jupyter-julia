@@ -1,7 +1,7 @@
 # Jupyter Notebook for Julia
-`Julia`を`Jupyter Notebook`上で使うための`Docker`イメージです。
+JuliaをJupyter Notebook上で使うためのDockerイメージです。
 
-`VSCode`の`devcontainer`のベースイメージなどにお使いください。
+VSCodeのdevcontainerのベースイメージなどにお使いください。
 
 
 - [Jupyter Notebook for Julia](#jupyter-notebook-for-julia)
@@ -15,7 +15,7 @@
 [DockerHub](https://hub.docker.com/repository/docker/huisint/jupyter-julia)からプルします。
 
 ``` shell
-$ docker pull hinihat/jupyter-julia
+$ docker pull huisint/jupyter-julia
 ```
 
 
@@ -34,7 +34,7 @@ $ jupyter nbconvert --to pdf sample.ipynb
 グラフもPDF出力できます。
 
 
-See also: [sample.ipynb](https://github.com/huisint/jupyter-julia/blob/master/sample.ipynb)
+See also: [sample.ipynb](sample.ipynb)
 
 ## License
 MIT License
